@@ -14,16 +14,19 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:id="@+id/image_view"
-            android:src="@drawable/pic1"/>
+            android:src="@drawable/pic1"
+            android:scaleType="fitXY"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/text_view"
+            android:paddingStart="20dp"
             android:text="pic1"
             android:textStyle="bold"
+            android:layout_marginTop="20dp"
             android:textSize="50sp"/>
 
     </LinearLayout>
